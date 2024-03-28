@@ -35,7 +35,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vipurl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "b448ce021d547cc49ea844f03feaa6c988231af6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","Toutorialbysynax/4")
+TUT_VID = os.environ.get("TUT_VID","Toutorialbysynax/3")
 
 
 #force sub channel id, if you want enable force sub
