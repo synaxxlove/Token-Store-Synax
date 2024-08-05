@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "7500ba8248548cc3864bd033668f9a9a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002053069822"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6231550362"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1326633570"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -34,12 +34,12 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vipurl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "b448ce021d547cc49ea844f03feaa6c988231af6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","Toutorialbysynax/3")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002060337698"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001153659176"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
